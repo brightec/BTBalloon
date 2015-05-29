@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6A2C2AD486D88B761023E59A"
+               BlueprintIdentifier = "2B0BD4EB78625D46D9BACE20"
                BuildableName = "BTBalloon.framework"
                BlueprintName = "Pods-BTBalloon_Tests-BTBalloon"
                ReferencedContainer = "container:Pods.xcodeproj">
