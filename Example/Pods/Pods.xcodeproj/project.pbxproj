@@ -32,7 +32,6 @@
 		6BACCA534C1FA4A148E72FEF /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 8624063E56FDED3132776905 /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72CC8D7DC0A4ABA0276FAD81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182D6740A6D60FDB0977C1F7 /* Foundation.framework */; };
 		76C3A246E811B2F4C45DBDD6 /* Pods-BTBalloon_Tests-BTBalloon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 729C8E301AD391CB6CDE1026 /* Pods-BTBalloon_Tests-BTBalloon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8849E821C9426F3CA87836BB /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B52ABD5903BF0432FA8F10 /* ReplaceMe.m */; };
 		91DFA7CC44A2AF626C79351B /* BTBalloon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 134C06915A95B44A8283D795 /* BTBalloon.bundle */; };
 		9BF3A1B3BCC68DEE161418AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50A8BCCA3997D296E7576F2A /* UIKit.framework */; };
 		A4FBD6569D08F93B09C3DAEF /* Pods-BTBalloon_Example-BTBalloon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69ACC0A838608EB77E409391 /* Pods-BTBalloon_Example-BTBalloon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -50,7 +49,6 @@
 		C6D72A133F4C55F2CFED127F /* Pods-BTBalloon_Example-BTBalloon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FB97694863F6C33D8F2AB3 /* Pods-BTBalloon_Example-BTBalloon-dummy.m */; };
 		C6E725962ABC9AF73F0520D2 /* BTBalloon.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7C16B616654A97DC5FE561 /* BTBalloon.m */; };
 		CA30783AF8F97512BF14065B /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 503B97A7763D7B6BAC8A0085 /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA616A0A41CB49EC7A489762 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B52ABD5903BF0432FA8F10 /* ReplaceMe.m */; };
 		D6B4859E634B4C0A3F12B4DA /* BTBalloon.h in Headers */ = {isa = PBXBuildFile; fileRef = 37F5B2758088B45727828299 /* BTBalloon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DFF6E2DBE24D0CBEEBC0B8B9 /* Pods-BTBalloon_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBF8B685DFA4710159147E5 /* Pods-BTBalloon_Tests-dummy.m */; };
 		E07B1BD1E407DB761EB92557 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A1D7C0D80B6C91043162D /* NSLayoutConstraint+PureLayout.m */; };
@@ -162,7 +160,6 @@
 		8624063E56FDED3132776905 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
 		8A15FD0A86A440E2E13FEDC9 /* Pods-BTBalloon_Tests-BTBalloon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-BTBalloon_Tests-BTBalloon-prefix.pch"; path = "../Pods-BTBalloon_Tests-BTBalloon/Pods-BTBalloon_Tests-BTBalloon-prefix.pch"; sourceTree = "<group>"; };
 		8AEC766B26AB43A35C758CA1 /* BTBalloonArrow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BTBalloonArrow.m; sourceTree = "<group>"; };
-		90B52ABD5903BF0432FA8F10 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		90C94DD0477492B17B8CDC19 /* Pods-BTBalloon_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BTBalloon_Tests-environment.h"; sourceTree = "<group>"; };
 		91A66754875835F53A32DB88 /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93009ACBB50EEB4A6A7103F9 /* Pods_BTBalloon_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTBalloon_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -389,7 +386,6 @@
 				5E7C16B616654A97DC5FE561 /* BTBalloon.m */,
 				AB4E09C5BA4DF8A0A7DC1F2E /* BTBalloonArrow.h */,
 				8AEC766B26AB43A35C758CA1 /* BTBalloonArrow.m */,
-				90B52ABD5903BF0432FA8F10 /* ReplaceMe.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -757,7 +753,6 @@
 				C6E725962ABC9AF73F0520D2 /* BTBalloon.m in Sources */,
 				B6DCF51BFB80E3275E469B3F /* BTBalloonArrow.m in Sources */,
 				C6D72A133F4C55F2CFED127F /* Pods-BTBalloon_Example-BTBalloon-dummy.m in Sources */,
-				CA616A0A41CB49EC7A489762 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -812,7 +807,6 @@
 				B8324E69EA8E56C9B9296B7F /* BTBalloon.m in Sources */,
 				E548AF2556BDB71946DDF5FE /* BTBalloonArrow.m in Sources */,
 				16E0A2BAE5FD3ABB6788D267 /* Pods-BTBalloon_Tests-BTBalloon-dummy.m in Sources */,
-				8849E821C9426F3CA87836BB /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
