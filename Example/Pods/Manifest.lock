@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BTBalloon: f804d10dfba42abbf4f6623d6eba053c777f4b56
+  BTBalloon: 7ba848a52d12672db1edf9732e11a2ec542e0ef5
   PureLayout: f25f0bb904d5ccfe6e31da3cb869185259f02e0d
 
 COCOAPODS: 0.37.2
