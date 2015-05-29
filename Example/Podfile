@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'BTBalloon_Example', :exclusive => true do
+  pod "BTBalloon", :path => "../"
+end
+
+target 'BTBalloon_Tests', :exclusive => true do
+  pod "BTBalloon", :path => "../"
+
+  
+end
