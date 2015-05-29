@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "BTBalloon"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "BTBalloon is a custom UIView subclass that will display text and optionally an image and/or button in a balloon style popup."
   s.homepage         = "https://github.com/brightec/BTBalloon"
   s.license          = 'Apache License, Version 2.0'

@@ -1,5 +1,5 @@
 PODS:
-  - BTBalloon (0.1.0):
+  - BTBalloon (0.1.1):
     - PureLayout (~> 2.0.6)
   - PureLayout (2.0.6)
 
@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BTBalloon: 7ba848a52d12672db1edf9732e11a2ec542e0ef5
+  BTBalloon: 928dd597406e72a1b24787940ca0bb600ae4b807
   PureLayout: f25f0bb904d5ccfe6e31da3cb869185259f02e0d
 
 COCOAPODS: 0.37.2
