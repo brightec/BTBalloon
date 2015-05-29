@@ -13,15 +13,19 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* BTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* BTAppDelegate.m */; };
-		6003F5A1195388D20070C39A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6003F59F195388D20070C39A /* Main_iPhone.storyboard */; };
-		6003F5A4195388D20070C39A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A2195388D20070C39A /* Main_iPad.storyboard */; };
-		6003F5A7195388D20070C39A /* BTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* BTViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		7EAF28CD1B18B7F6007C4F83 /* BTAppTutorial.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAF28C21B18B7F6007C4F83 /* BTAppTutorial.m */; };
+		7EAF28CE1B18B7F6007C4F83 /* BTFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAF28C41B18B7F6007C4F83 /* BTFirstViewController.m */; };
+		7EAF28CF1B18B7F6007C4F83 /* BTOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAF28C61B18B7F6007C4F83 /* BTOverlay.m */; };
+		7EAF28D01B18B7F6007C4F83 /* BTSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAF28C81B18B7F6007C4F83 /* BTSecondViewController.m */; };
+		7EAF28D11B18B7F6007C4F83 /* BTThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAF28CA1B18B7F6007C4F83 /* BTThirdViewController.m */; };
+		7EAF28D21B18B7F6007C4F83 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EAF28CB1B18B7F6007C4F83 /* LaunchScreen.xib */; };
+		7EAF28D31B18B7F6007C4F83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EAF28CC1B18B7F6007C4F83 /* Main.storyboard */; };
 		ACCD6971912D89D8F9730BFF /* Pods_BTBalloon_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAD5FC4DC7338E2112F6B0C /* Pods_BTBalloon_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		AEF83B6FAC283EEF68ED398E /* Pods_BTBalloon_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E347FD941EEFA28A5E25AEC2 /* Pods_BTBalloon_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
@@ -39,7 +43,7 @@
 /* Begin PBXFileReference section */
 		138B52D55360F4387F9BAE4D /* Pods-BTBalloon_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTBalloon_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BTBalloon_Example/Pods-BTBalloon_Example.release.xcconfig"; sourceTree = "<group>"; };
 		36D9F83BF4663194947D7520 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* BTBalloon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = BTBalloon.app; path = BTBalloon_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* BTBalloon_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTBalloon_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -49,18 +53,26 @@
 		6003F59B195388D20070C39A /* BTBalloon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BTBalloon-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* BTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* BTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A0195388D20070C39A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		6003F5A3195388D20070C39A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* BTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* BTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = BTBalloon_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* BTBalloon_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTBalloon_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		72EE5CA2DD398D80A4DFA62F /* Pods-BTBalloon_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTBalloon_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BTBalloon_Example/Pods-BTBalloon_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7EAF28C11B18B7F6007C4F83 /* BTAppTutorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTAppTutorial.h; sourceTree = "<group>"; };
+		7EAF28C21B18B7F6007C4F83 /* BTAppTutorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTAppTutorial.m; sourceTree = "<group>"; };
+		7EAF28C31B18B7F6007C4F83 /* BTFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTFirstViewController.h; sourceTree = "<group>"; };
+		7EAF28C41B18B7F6007C4F83 /* BTFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTFirstViewController.m; sourceTree = "<group>"; };
+		7EAF28C51B18B7F6007C4F83 /* BTOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTOverlay.h; sourceTree = "<group>"; };
+		7EAF28C61B18B7F6007C4F83 /* BTOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTOverlay.m; sourceTree = "<group>"; };
+		7EAF28C71B18B7F6007C4F83 /* BTSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSecondViewController.h; sourceTree = "<group>"; };
+		7EAF28C81B18B7F6007C4F83 /* BTSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSecondViewController.m; sourceTree = "<group>"; };
+		7EAF28C91B18B7F6007C4F83 /* BTThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTThirdViewController.h; sourceTree = "<group>"; };
+		7EAF28CA1B18B7F6007C4F83 /* BTThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTThirdViewController.m; sourceTree = "<group>"; };
+		7EAF28CB1B18B7F6007C4F83 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		7EAF28CC1B18B7F6007C4F83 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		91993203A5FE3343F22CD754 /* Pods-BTBalloon_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTBalloon_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BTBalloon_Tests/Pods-BTBalloon_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9A55E840F24CFFD0F0B9A05B /* Pods-BTBalloon_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTBalloon_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BTBalloon_Tests/Pods-BTBalloon_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A9047CD60329459DF61792E4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -110,8 +122,8 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* BTBalloon.app */,
-				6003F5AE195388D20070C39A /* Tests.xctest */,
+				6003F58A195388D20070C39A /* BTBalloon_Example.app */,
+				6003F5AE195388D20070C39A /* BTBalloon_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,12 +144,12 @@
 		6003F593195388D20070C39A /* Example for BTBalloon */ = {
 			isa = PBXGroup;
 			children = (
+				7EAF28D41B18B7FD007C4F83 /* Tutorial */,
+				7EAF28D51B18B805007C4F83 /* Controllers */,
 				6003F59C195388D20070C39A /* BTAppDelegate.h */,
 				6003F59D195388D20070C39A /* BTAppDelegate.m */,
-				6003F59F195388D20070C39A /* Main_iPhone.storyboard */,
-				6003F5A2195388D20070C39A /* Main_iPad.storyboard */,
-				6003F5A5195388D20070C39A /* BTViewController.h */,
-				6003F5A6195388D20070C39A /* BTViewController.m */,
+				7EAF28CB1B18B7F6007C4F83 /* LaunchScreen.xib */,
+				7EAF28CC1B18B7F6007C4F83 /* Main.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -185,6 +197,30 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		7EAF28D41B18B7FD007C4F83 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				7EAF28C51B18B7F6007C4F83 /* BTOverlay.h */,
+				7EAF28C61B18B7F6007C4F83 /* BTOverlay.m */,
+				7EAF28C11B18B7F6007C4F83 /* BTAppTutorial.h */,
+				7EAF28C21B18B7F6007C4F83 /* BTAppTutorial.m */,
+			);
+			name = Tutorial;
+			sourceTree = "<group>";
+		};
+		7EAF28D51B18B805007C4F83 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7EAF28C31B18B7F6007C4F83 /* BTFirstViewController.h */,
+				7EAF28C41B18B7F6007C4F83 /* BTFirstViewController.m */,
+				7EAF28C71B18B7F6007C4F83 /* BTSecondViewController.h */,
+				7EAF28C81B18B7F6007C4F83 /* BTSecondViewController.m */,
+				7EAF28C91B18B7F6007C4F83 /* BTThirdViewController.h */,
+				7EAF28CA1B18B7F6007C4F83 /* BTThirdViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		96507E42FA85228CE0E8CC27 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -216,7 +252,7 @@
 			);
 			name = BTBalloon_Example;
 			productName = BTBalloon;
-			productReference = 6003F58A195388D20070C39A /* BTBalloon.app */;
+			productReference = 6003F58A195388D20070C39A /* BTBalloon_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* BTBalloon_Tests */ = {
@@ -237,7 +273,7 @@
 			);
 			name = BTBalloon_Tests;
 			productName = BTBalloonTests;
-			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* BTBalloon_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -279,10 +315,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5A4195388D20070C39A /* Main_iPad.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				6003F5A1195388D20070C39A /* Main_iPhone.storyboard in Resources */,
+				7EAF28D21B18B7F6007C4F83 /* LaunchScreen.xib in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				7EAF28D31B18B7F6007C4F83 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,9 +430,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EAF28D11B18B7F6007C4F83 /* BTThirdViewController.m in Sources */,
+				7EAF28D01B18B7F6007C4F83 /* BTSecondViewController.m in Sources */,
 				6003F59E195388D20070C39A /* BTAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* BTViewController.m in Sources */,
+				7EAF28CD1B18B7F6007C4F83 /* BTAppTutorial.m in Sources */,
+				7EAF28CF1B18B7F6007C4F83 /* BTOverlay.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				7EAF28CE1B18B7F6007C4F83 /* BTFirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,22 +465,6 @@
 				6003F597195388D20070C39A /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		6003F59F195388D20070C39A /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6003F5A0195388D20070C39A /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		6003F5A2195388D20070C39A /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6003F5A3195388D20070C39A /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
@@ -486,7 +510,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -519,7 +543,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

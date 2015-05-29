@@ -10,21 +10,14 @@
 Pod::Spec.new do |s|
   s.name             = "BTBalloon"
   s.version          = "0.1.0"
-  s.summary          = "A short description of BTBalloon."
-  s.description      = <<-DESC
-                       An optional longer description of BTBalloon
+  s.summary          = "BTBalloon is a custom UIView subclass that will display text and optionally an image and/or button in a balloon style popup."
+  s.homepage         = "https://github.com/brightec/BTBalloon"
+  s.license          = 'Apache License, Version 2.0'
+  s.author           = { "Cameron Cooke" => "cameron@brightec.co.uk" }
+  s.source           = { :git => "https://github.com/brightec/BTBalloon.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/brightec'
 
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/BTBalloon"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
-  s.author           = { "Cameron Cooke" => "web@cameroncooke.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/BTBalloon.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '8.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
@@ -32,7 +25,7 @@ Pod::Spec.new do |s|
     'BTBalloon' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.public_header_files = 'Pod/Classes/*.h'
+  s.frameworks = 'UIKit'
+  s.dependency 'PureLayout', '~> 2.0.6'
 end

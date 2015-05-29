@@ -1,0 +1,6 @@
+framework module PureLayout {
+  umbrella header "Pods-BTBalloon_Tests-PureLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}
