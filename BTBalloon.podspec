@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "BTBalloon"
-  s.version          = "0.1.2"
+  s.version          = "0.1.3"
   s.summary          = "BTBalloon is a custom UIView subclass that will display text and optionally an image and/or button in a balloon style popup."
   s.homepage         = "https://github.com/brightec/BTBalloon"
   s.license          = 'Apache License, Version 2.0'
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/brightec/BTBalloon.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/brightec'
 
-  s.platform     = :ios, '8.0'
+  s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
