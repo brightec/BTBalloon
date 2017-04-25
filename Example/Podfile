@@ -1,12 +1,12 @@
-source 'https://github.com/CocoaPods/Specs.git'
-use_frameworks!
+# Uncomment the next line to define a global platform for your project
+platform :ios, '8.0'
 
-target 'BTBalloon_Example', :exclusive => true do
+target 'BTBalloon_Example' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for BTBalloon_Example
   pod "BTBalloon", :path => "../"
-end
+  pod "PureLayout", "~> 3.0"
 
-target 'BTBalloon_Tests', :exclusive => true do
-  pod "BTBalloon", :path => "../"
-
-  
 end

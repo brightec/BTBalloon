@@ -1,6 +1,6 @@
 {
   "name": "BTBalloon",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "summary": "BTBalloon is a custom UIView subclass that will display text and optionally an image and/or button in a balloon style popup.",
   "homepage": "https://github.com/brightec/BTBalloon",
   "license": "Apache License, Version 2.0",
@@ -9,11 +9,11 @@
   },
   "source": {
     "git": "https://github.com/brightec/BTBalloon.git",
-    "tag": "0.1.2"
+    "tag": "0.1.4"
   },
   "social_media_url": "https://twitter.com/brightec",
   "platforms": {
-    "ios": "8.0"
+    "ios": "7.0"
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",
@@ -23,10 +23,5 @@
     ]
   },
   "public_header_files": "Pod/Classes/*.h",
-  "frameworks": "UIKit",
-  "dependencies": {
-    "PureLayout": [
-      "~> 2.0.6"
-    ]
-  }
+  "frameworks": "UIKit"
 }

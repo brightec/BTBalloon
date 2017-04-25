@@ -10,7 +10,9 @@
 #endif
 #endif
 
+#import "BTBalloon.h"
+#import "BTBalloonArrow.h"
 
-FOUNDATION_EXPORT double Pods_BTBalloon_ExampleVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_BTBalloon_ExampleVersionString[];
+FOUNDATION_EXPORT double BTBalloonVersionNumber;
+FOUNDATION_EXPORT const unsigned char BTBalloonVersionString[];
 

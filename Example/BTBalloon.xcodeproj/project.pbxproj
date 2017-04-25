@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A5778AB22D9BE5BBD8798EB /* Pods_BTBalloon_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862EF3767BF213A31EB94C81 /* Pods_BTBalloon_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -26,8 +27,6 @@
 		7EAF28D11B18B7F6007C4F83 /* BTThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAF28CA1B18B7F6007C4F83 /* BTThirdViewController.m */; };
 		7EAF28D21B18B7F6007C4F83 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EAF28CB1B18B7F6007C4F83 /* LaunchScreen.xib */; };
 		7EAF28D31B18B7F6007C4F83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EAF28CC1B18B7F6007C4F83 /* Main.storyboard */; };
-		ACCD6971912D89D8F9730BFF /* Pods_BTBalloon_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAD5FC4DC7338E2112F6B0C /* Pods_BTBalloon_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		AEF83B6FAC283EEF68ED398E /* Pods_BTBalloon_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E347FD941EEFA28A5E25AEC2 /* Pods_BTBalloon_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		138B52D55360F4387F9BAE4D /* Pods-BTBalloon_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTBalloon_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BTBalloon_Example/Pods-BTBalloon_Example.release.xcconfig"; sourceTree = "<group>"; };
 		36D9F83BF4663194947D7520 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		50066D1D2C2DF826E2452C39 /* Pods-BTBalloon_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTBalloon_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BTBalloon_Example/Pods-BTBalloon_Example.release.xcconfig"; sourceTree = "<group>"; };
+		52A7610EF11940049B72D189 /* Pods-BTBalloon_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTBalloon_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BTBalloon_Example/Pods-BTBalloon_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* BTBalloon_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTBalloon_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,7 +60,6 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		72EE5CA2DD398D80A4DFA62F /* Pods-BTBalloon_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTBalloon_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BTBalloon_Example/Pods-BTBalloon_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7EAF28C11B18B7F6007C4F83 /* BTAppTutorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTAppTutorial.h; sourceTree = "<group>"; };
 		7EAF28C21B18B7F6007C4F83 /* BTAppTutorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTAppTutorial.m; sourceTree = "<group>"; };
 		7EAF28C31B18B7F6007C4F83 /* BTFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTFirstViewController.h; sourceTree = "<group>"; };
@@ -73,12 +72,9 @@
 		7EAF28CA1B18B7F6007C4F83 /* BTThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTThirdViewController.m; sourceTree = "<group>"; };
 		7EAF28CB1B18B7F6007C4F83 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		7EAF28CC1B18B7F6007C4F83 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		91993203A5FE3343F22CD754 /* Pods-BTBalloon_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTBalloon_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BTBalloon_Tests/Pods-BTBalloon_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9A55E840F24CFFD0F0B9A05B /* Pods-BTBalloon_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTBalloon_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BTBalloon_Tests/Pods-BTBalloon_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		862EF3767BF213A31EB94C81 /* Pods_BTBalloon_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTBalloon_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9047CD60329459DF61792E4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C343A4F96F0E26532E320260 /* BTBalloon.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BTBalloon.podspec; path = ../BTBalloon.podspec; sourceTree = "<group>"; };
-		CCAD5FC4DC7338E2112F6B0C /* Pods_BTBalloon_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTBalloon_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E347FD941EEFA28A5E25AEC2 /* Pods_BTBalloon_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTBalloon_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +85,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				AEF83B6FAC283EEF68ED398E /* Pods_BTBalloon_Example.framework in Frameworks */,
+				5A5778AB22D9BE5BBD8798EB /* Pods_BTBalloon_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,13 +96,21 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				ACCD6971912D89D8F9730BFF /* Pods_BTBalloon_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C7DE13D483B83888724BF01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52A7610EF11940049B72D189 /* Pods-BTBalloon_Example.debug.xcconfig */,
+				50066D1D2C2DF826E2452C39 /* Pods-BTBalloon_Example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -115,7 +119,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				96507E42FA85228CE0E8CC27 /* Pods */,
+				0C7DE13D483B83888724BF01 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,8 +139,7 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				E347FD941EEFA28A5E25AEC2 /* Pods_BTBalloon_Example.framework */,
-				CCAD5FC4DC7338E2112F6B0C /* Pods_BTBalloon_Tests.framework */,
+				862EF3767BF213A31EB94C81 /* Pods_BTBalloon_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -221,17 +224,6 @@
 			name = Controllers;
 			sourceTree = "<group>";
 		};
-		96507E42FA85228CE0E8CC27 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				72EE5CA2DD398D80A4DFA62F /* Pods-BTBalloon_Example.debug.xcconfig */,
-				138B52D55360F4387F9BAE4D /* Pods-BTBalloon_Example.release.xcconfig */,
-				9A55E840F24CFFD0F0B9A05B /* Pods-BTBalloon_Tests.debug.xcconfig */,
-				91993203A5FE3343F22CD754 /* Pods-BTBalloon_Tests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -239,12 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "BTBalloon_Example" */;
 			buildPhases = (
-				C7A0DF50B95DC81AC334D73E /* Check Pods Manifest.lock */,
+				8ECFB90F7EBD400E463A5DCB /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				499D7312E08B1809178C329E /* Embed Pods Frameworks */,
-				62EB33002F9CF0A3912FE655 /* Copy Pods Resources */,
+				DB18CF0C5B4382B20AA2696A /* [CP] Embed Pods Frameworks */,
+				A13A4C3630D50012FF42E59C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,12 +251,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "BTBalloon_Tests" */;
 			buildPhases = (
-				5FFFF81D2568B9EECA1E8D74 /* Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				95CD989691C6050F46ADCEAA /* Embed Pods Frameworks */,
-				3E5BE499D1E97716A63FF6F2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -283,9 +272,12 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = BT;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Cameron Cooke";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = K5RH4HRPJE;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -333,59 +325,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3E5BE499D1E97716A63FF6F2 /* Copy Pods Resources */ = {
+		8ECFB90F7EBD400E463A5DCB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BTBalloon_Tests/Pods-BTBalloon_Tests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		499D7312E08B1809178C329E /* Embed Pods Frameworks */ = {
+		A13A4C3630D50012FF42E59C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BTBalloon_Example/Pods-BTBalloon_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5FFFF81D2568B9EECA1E8D74 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		62EB33002F9CF0A3912FE655 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,34 +355,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BTBalloon_Example/Pods-BTBalloon_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		95CD989691C6050F46ADCEAA /* Embed Pods Frameworks */ = {
+		DB18CF0C5B4382B20AA2696A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BTBalloon_Tests/Pods-BTBalloon_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C7A0DF50B95DC81AC334D73E /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BTBalloon_Example/Pods-BTBalloon_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -491,13 +438,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -530,13 +483,18 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -552,14 +510,16 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72EE5CA2DD398D80A4DFA62F /* Pods-BTBalloon_Example.debug.xcconfig */;
+			baseConfigurationReference = 52A7610EF11940049B72D189 /* Pods-BTBalloon_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = K5RH4HRPJE;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BTBalloon/BTBalloon-Prefix.pch";
 				INFOPLIST_FILE = "BTBalloon/BTBalloon-Info.plist";
 				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -567,14 +527,16 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 138B52D55360F4387F9BAE4D /* Pods-BTBalloon_Example.release.xcconfig */;
+			baseConfigurationReference = 50066D1D2C2DF826E2452C39 /* Pods-BTBalloon_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = K5RH4HRPJE;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BTBalloon/BTBalloon-Prefix.pch";
 				INFOPLIST_FILE = "BTBalloon/BTBalloon-Info.plist";
 				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -582,7 +544,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A55E840F24CFFD0F0B9A05B /* Pods-BTBalloon_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -597,6 +558,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTBalloon_Example.app/BTBalloon_Example";
 				WRAPPER_EXTENSION = xctest;
@@ -605,7 +567,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91993203A5FE3343F22CD754 /* Pods-BTBalloon_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -616,6 +577,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTBalloon_Example.app/BTBalloon_Example";
 				WRAPPER_EXTENSION = xctest;

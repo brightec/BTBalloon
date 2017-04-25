@@ -1,6 +1,0 @@
-framework module BTBalloon {
-  umbrella header "Pods-BTBalloon_Tests-BTBalloon-umbrella.h"
-
-  export *
-  module * { export * }
-}

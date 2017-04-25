@@ -1,17 +1,19 @@
 PODS:
-  - BTBalloon (0.1.2):
-    - PureLayout (~> 2.0.6)
-  - PureLayout (2.0.6)
+  - BTBalloon (0.1.4)
+  - PureLayout (3.0.2)
 
 DEPENDENCIES:
   - BTBalloon (from `../`)
+  - PureLayout (~> 3.0)
 
 EXTERNAL SOURCES:
   BTBalloon:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BTBalloon: d38bbf4f6ee29ebad7b983653a927e874dfe1f7f
-  PureLayout: f25f0bb904d5ccfe6e31da3cb869185259f02e0d
+  BTBalloon: f20b986926631d61d73ec533caa028fe1c1a9a35
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
 
-COCOAPODS: 0.37.2
+PODFILE CHECKSUM: d1a56e911e56241a26e8d3a887bb265de79957fb
+
+COCOAPODS: 1.2.1
