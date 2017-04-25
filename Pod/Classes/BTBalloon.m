@@ -20,7 +20,6 @@
 
 #import "BTBalloon.h"
 #import "BTBalloonArrow.h"
-#import <PureLayout.h>
 
 
 typedef NS_ENUM(NSInteger, BTBalloonArrowPosition) {
@@ -154,7 +153,22 @@ static CGFloat const margin = 10.0f;
     self.arrowView.opaque = NO;
     self.arrowView.fillColour = self.balloonBackgroundColor;
     [self addSubview:self.arrowView];
-    [self.arrowView autoSetDimensionsToSize:CGSizeMake(arrowWidth, arrowHeight)];
+
+    [self.arrowView addConstraint:[NSLayoutConstraint constraintWithItem:self.arrowView
+                                                               attribute:NSLayoutAttributeWidth
+                                                               relatedBy:NSLayoutRelationEqual
+                                                                  toItem:nil
+                                                               attribute:NSLayoutAttributeNotAnAttribute
+                                                              multiplier:1.0f
+                                                                constant:arrowWidth]];
+
+    [self.arrowView addConstraint:[NSLayoutConstraint constraintWithItem:self.arrowView
+                                                               attribute:NSLayoutAttributeHeight
+                                                               relatedBy:NSLayoutRelationEqual
+                                                                  toItem:nil
+                                                               attribute:NSLayoutAttributeNotAnAttribute
+                                                              multiplier:1.0f
+                                                                constant:arrowHeight]];
     
     NSLayoutConstraint *horizontalConstraint = [NSLayoutConstraint constraintWithItem:self.arrowView
                                                                             attribute:NSLayoutAttributeLeading
@@ -185,8 +199,11 @@ static CGFloat const margin = 10.0f;
     self.balloonView.translatesAutoresizingMaskIntoConstraints = NO;
     self.balloonView.backgroundColor = self.balloonBackgroundColor;
     [self addSubview:self.balloonView];
-    [self.balloonView autoPinEdgeToSuperviewEdge:ALEdgeLeading];
-    [self.balloonView autoPinEdgeToSuperviewEdge:ALEdgeTrailing];
+
+    [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"|-(0)-[balloonView]-(0)-|"
+                                                                 options:0
+                                                                 metrics:nil
+                                                                   views:@{@"balloonView": self.balloonView}]];
     
     NSLayoutConstraint *topConstraint = [NSLayoutConstraint constraintWithItem:self.balloonView
                                                                      attribute:NSLayoutAttributeTop
@@ -232,7 +249,13 @@ static CGFloat const margin = 10.0f;
         _button.titleLabel.font = self.buttonFont;
         [_button setTitleColor:self.buttonTextColor forState:UIControlStateNormal];
         [_button addTarget:self action:@selector(buttonWasTouched:) forControlEvents:UIControlEventTouchUpInside];
-        [_button autoSetDimension:ALDimensionHeight toSize:44.0f];
+        [_button addConstraint:[NSLayoutConstraint constraintWithItem:_button
+                                                            attribute:NSLayoutAttributeHeight
+                                                            relatedBy:NSLayoutRelationEqual
+                                                               toItem:nil
+                                                            attribute:NSLayoutAttributeNotAnAttribute
+                                                           multiplier:1.0f
+                                                             constant:44.0f]];
     }
     
     return _button;
