@@ -21,6 +21,7 @@
 #import "BTBalloon.h"
 #import "BTBalloonArrow.h"
 
+@import QuartzCore;
 
 typedef NS_ENUM(NSInteger, BTBalloonArrowPosition) {
     BTBalloonArrowPositionBelow,
@@ -28,8 +29,8 @@ typedef NS_ENUM(NSInteger, BTBalloonArrowPosition) {
 };
 
 
-static CGFloat const arrowWidth = 35.0f;
-static CGFloat const arrowHeight = 20.0f;
+static CGFloat const arrowWidth = 20.0f;
+static CGFloat const arrowHeight = 15.0f;
 static CGFloat const margin = 10.0f;
 
 
@@ -66,7 +67,7 @@ static CGFloat const margin = 10.0f;
 - (id)init
 {
     CGFloat smallestHeightToSatisifyConstraints = 200.0f;
-    return [self initWithFrame:CGRectMake(0, 0, 280.0f, smallestHeightToSatisifyConstraints)];
+    return [self initWithFrame:CGRectMake(0, 0, 140.0f, smallestHeightToSatisifyConstraints)];
 }
 
 
@@ -90,6 +91,7 @@ static CGFloat const margin = 10.0f;
         [self addBalloonView];
         
         [self.window addSubview:self];
+        [self layoutIfNeeded];
     }
     return self;
 }
@@ -144,6 +146,21 @@ static CGFloat const margin = 10.0f;
 # pragma mark -
 # pragma mark Views
 
+- (void)layoutSubviews {
+    [super layoutSubviews];
+    
+    self.balloonView.layer.cornerRadius = self.balloonView.frame.size.height/2;
+    self.balloonView.clipsToBounds = true;
+    UIBezierPath *shadowPath = [UIBezierPath bezierPathWithRect:self.balloonView.bounds];
+    self.balloonView.layer.shadowColor = [UIColor blackColor].CGColor;
+    self.balloonView.layer.shadowOffset = CGSizeMake(0.0f, -5.0f);
+    self.balloonView.layer.shadowOpacity = 0.15f;
+    self.balloonView.layer.shadowRadius = 5.0f;
+    self.balloonView.layer.shadowPath = shadowPath.CGPath;
+//    self.balloonView.layer.cornerRadius = self.balloonView.frame.size.height/2;
+    self.balloonView.clipsToBounds = false;
+}
+
 - (void)addArrowView
 {
     // add arrow view
@@ -153,7 +170,7 @@ static CGFloat const margin = 10.0f;
     self.arrowView.opaque = NO;
     self.arrowView.fillColour = self.balloonBackgroundColor;
     [self addSubview:self.arrowView];
-
+    
     [self.arrowView addConstraint:[NSLayoutConstraint constraintWithItem:self.arrowView
                                                                attribute:NSLayoutAttributeWidth
                                                                relatedBy:NSLayoutRelationEqual
@@ -161,7 +178,7 @@ static CGFloat const margin = 10.0f;
                                                                attribute:NSLayoutAttributeNotAnAttribute
                                                               multiplier:1.0f
                                                                 constant:arrowWidth]];
-
+    
     [self.arrowView addConstraint:[NSLayoutConstraint constraintWithItem:self.arrowView
                                                                attribute:NSLayoutAttributeHeight
                                                                relatedBy:NSLayoutRelationEqual
@@ -197,9 +214,13 @@ static CGFloat const margin = 10.0f;
     // add balloon view
     self.balloonView = [[UIView alloc] initWithFrame:CGRectZero];
     self.balloonView.translatesAutoresizingMaskIntoConstraints = NO;
+    self.balloonView.layer.cornerRadius = 3;
+    self.balloonView.clipsToBounds = true;
     self.balloonView.backgroundColor = self.balloonBackgroundColor;
     [self addSubview:self.balloonView];
-
+    [self.balloonView autoPinEdgeToSuperviewEdge:ALEdgeLeading];
+    [self.balloonView autoPinEdgeToSuperviewEdge:ALEdgeTrailing];
+    
     [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"|-(0)-[balloonView]-(0)-|"
                                                                  options:0
                                                                  metrics:nil
@@ -440,7 +461,7 @@ static CGFloat const margin = 10.0f;
     
     // get the surrounding space
     CGFloat spaceAbove = CGRectGetMinY(convertedFrame);
-    CGFloat spaceBelow = CGRectGetHeight(self.window.frame) - (spaceAbove + CGRectGetHeight(view.frame));
+//    CGFloat spaceBelow = CGRectGetHeight(self.window.frame) - (spaceAbove + CGRectGetHeight(view.frame));
     
 //    NSLog(@"Ballon size=%@", NSStringFromCGSize(self.frame.size));
 //    NSLog(@"Space above=%f below=%f", spaceAbove, spaceBelow);
@@ -449,18 +470,18 @@ static CGFloat const margin = 10.0f;
     CGRect frame = self.frame;
     
     BTBalloonArrowPosition arrowPosition = BTBalloonArrowPositionAbove;
-    if (height > spaceBelow && spaceAbove >= height) {
-//        NSLog(@"Using space above");
+//    if (height > spaceBelow && spaceAbove >= height) {
+////        NSLog(@"Using space above");
         frame.origin.y = CGRectGetMinY(convertedFrame) - height;
         arrowPosition = BTBalloonArrowPositionBelow;
-    } else if (height > spaceBelow) {
-//        NSLog(@"Using space below but adjusting size of balloon to fit");
-        frame.origin.y = CGRectGetMaxY(convertedFrame);
-        frame.size.height = spaceBelow;
-    } else {
-//        NSLog(@"Using space below");
-        frame.origin.y = CGRectGetMaxY(convertedFrame);
-    }
+//    } else if (height > spaceBelow) {
+////        NSLog(@"Using space below but adjusting size of balloon to fit");
+//        frame.origin.y = CGRectGetMaxY(convertedFrame);
+//        frame.size.height = spaceBelow;
+//    } else {
+////        NSLog(@"Using space below");
+//        frame.origin.y = CGRectGetMaxY(convertedFrame);
+//    }
     
     CGFloat x = CGRectGetMidX(convertedFrame) - (width / 2);
     x = MIN(x, CGRectGetWidth(self.window.frame) - width - margin);
@@ -560,7 +581,7 @@ static CGFloat const margin = 10.0f;
     // make sure balloon is restrained within the visible area of the balloon view
     CGFloat x = positon;
     x = MIN(x, CGRectGetWidth(self.balloonView.frame) - arrowWidth);
-    x = MAX(x, 0);
+    x = MAX(x, 0+arrowWidth);
     
     self.arrowHorizontalConstraint.constant = x;
 }
